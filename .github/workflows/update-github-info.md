@@ -18,6 +18,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 
 safe-outputs:
   create-pull-request:
@@ -35,6 +36,7 @@ Keep the GitHub Info website current with concise, practical updates for develop
 2. Read the current `site/content/github-info.md` using the GitHub repository API tools.
 3. Use the `web-fetch` tool to fetch https://github.blog/latest/.
 4. Use the `web-fetch` tool to fetch https://github.blog/changelog/.
+5. Use the `web-fetch` tool to fetch https://awesome-copilot.github.com/workflows/.
 
 ## Update
 
