@@ -8,6 +8,8 @@ permissions:
   contents: read
   pull-requests: read
 
+model: auto
+
 tools:
   github:
     toolsets: [repos]
